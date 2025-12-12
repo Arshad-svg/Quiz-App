@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiz App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+  <main class="main">
+    <div class="container" id="quizContainer">
+      <header class="header">
+        <h1>Quick Quiz</h1>
+        <div class="progress" aria-hidden="true">
+          <div id="progressBar"></div>
+        </div>
+      </header>
+
+      <section class="card" id="quizCard">
+        <div class="meta" id="qCounter">Question 1 of 1</div>
+        <h3 id="questionBox">Question text</h3>
+
+        <div class="options" id="optionsList"></div>
+
+        <div class="controls">
+          <button id="prevBtn" class="btn ghost">Previous</button>
+          <button id="nextBtn" class="btn primary">Next</button>
+        </div>
+      </section>
+
+      <section id="resultView" class="card result" style="display:none">
+        <h2>Quiz Completed</h2>
+        <div class="score" id="scoreText">0 / 0</div>
+        <p id="resultMsg">Great job!</p>
+        <div class="controls">
+          <button id="restartBtn" class="btn outline">Restart</button>
+          <button id="shareBtn" class="btn ghost">Save Score</button>
+        </div>
+        <small class="hint">High score saved locally.</small>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
