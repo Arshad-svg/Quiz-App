@@ -1,1 +1,2 @@
 # Quiz-App
+The Quiz App is a simple, interactive web-based application designed to test a user’s knowledge through multiple-choice questions. It displays one question at a time and allows users to select an answer, navigate between questions, and submit their responses. After all questions are attempted, the app calculates and displays the user’s final score along with feedback. A restart option is also available, allowing users to retake the quiz.
